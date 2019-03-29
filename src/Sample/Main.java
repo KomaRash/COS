@@ -21,6 +21,10 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
+        if (AlgorithmOp.getDiscreteFourierGraph(AlgorithmOp.getOriginalGraph())==AlgorithmOp.getFastFourierGraph(AlgorithmOp.getOriginalGraph()))
+        {
+            System.out.println("a");
+        }
         launch(args);
     }
 }

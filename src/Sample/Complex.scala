@@ -9,6 +9,7 @@ class Complex(val re:Double,val im:Double) {
   def mod()=Math.sqrt(re*re + im*im)
   def *(c:Complex)=new Complex(re*c.re-im*c.im,re*c.im+im*c.re)
   def /(c:Double)=new Complex(re/c,im/c)
-  def phase()=Math.atan(re/im)
+  def phase(): Double =Math.atan(im/re)
+  def conjugate():Complex=new Complex(re,im*(-1))
 
 }
