@@ -11,6 +11,7 @@ public class GraphsGroupForm extends VBox {
         GraphsGroup graph2 = new GraphsGroup(СonvolutionAndCorrelationOP.getConvolutionGraph(), "Свертка", "Свертка");
         GraphsGroup graph3 = new GraphsGroup(СonvolutionAndCorrelationOP.getCorrelationGraph(), "корреляция", "корреляция");
 
+
         HBox hBox1=new HBox();
         HBox hBox2=new HBox();
         hBox1.getChildren().addAll(graph.getGraphsGroup(), graph2.getGraphsGroup());
