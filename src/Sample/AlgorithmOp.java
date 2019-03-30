@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class AlgorithmOp {
     private static ArrayList<Complex> list;
-    private static int N = 64;
+    private static int N = 8;
 
     public static HashMap<Double, Double> getOriginalGraph() {
         HashMap<Double, Double> graphHash = new HashMap<>();

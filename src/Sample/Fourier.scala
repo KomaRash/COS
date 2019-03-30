@@ -1,7 +1,7 @@
 package Sample
 
 object Fourier{
-  var N = 64
+  var N = 8
 def fiu(acc:Complex,list: List[Complex]): Complex={
   if(list.isEmpty)
     acc
